@@ -1,0 +1,68 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+
+
+#video-grid{
+    display:flex;
+    justify-content:center;
+}
+video{
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.main{
+    display:flex;
+    height: 100vh;
+}
+
+.main__left{
+    flex:0.8;
+    display: flex;
+    flex-direction: column;
+}
+.main__videos{
+    flex-grow: 1;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.main__right{
+    flex:0.2;
+}
+.main__controls{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(34, 34, 34);
+    color: #fff;
+
+}
+.main__controls__block{
+    display: flex;
+}
+
+.main__controls__button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    min-width: 80px;
+    cursor: pointer;
+}
+.main__controls__button:hover{
+    background-color:#343434;
+    border-radius: 5px;
+}
+.main__controls__button i{
+    font-size:24px;
+}
+
+.leave__meeting{
+    color: #eb534b;
+}
