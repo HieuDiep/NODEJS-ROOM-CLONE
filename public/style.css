@@ -101,6 +101,6 @@ video{
     padding:0px;
 }
 
-.unmute{
+.unmute,.stop {
     color: #cc3b33;
 }
